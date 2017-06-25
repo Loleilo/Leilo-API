@@ -27,6 +27,8 @@ class LeiloDB
 
     public function createAtom($init_val, $name = null)
     {
+        if ($init_val == null)
+            $init_val = "null";
         $UUID = Util::getUUID($this->db);
         if ($name == null)
             $name = $UUID;

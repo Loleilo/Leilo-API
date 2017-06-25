@@ -103,7 +103,7 @@ try {
             $perms = pp($params, "permissions");
             db()->setGroupPermissions($user, $group, $perms);
         } else if ($name == "_createAtom") {
-            $init_val = pp($params, "init_val");
+            $init_val = ppo($params, "init_val");
             $name = ppo($params, "name");
             $returnData = db()->createAtom($init_val, $name);
         } else if ($name == "_setAtomPermissions") {

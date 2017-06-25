@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3416c6e4-9c2f-4fe8-bfb2-9e90ae5c7385" name="Default" comment="" />
+    <list default="true" id="3416c6e4-9c2f-4fe8-bfb2-9e90ae5c7385" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api.php" afterPath="$PROJECT_DIR$/api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/leilodb.php" afterPath="$PROJECT_DIR$/backend/leilodb.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/session.php" afterPath="$PROJECT_DIR$/backend/session.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,6 +16,95 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="leilodb.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/leilodb.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+              <folding>
+                <marker date="1498359951364" expanded="true" signature="836:910" ph="INSERT INTO atoms... " />
+                <marker date="1498359951364" expanded="true" signature="1180:1234" ph="INSERT INTO groups... " />
+                <marker date="1498359951364" expanded="true" signature="1584:1677" ph="INSERT INTO users... " />
+                <marker date="1498359951364" expanded="true" signature="1908:1959" ph="SELECT passw... users" />
+                <marker date="1498359951364" expanded="true" signature="2631:2674" ph="SELECT value... atoms" />
+                <marker date="1498359951364" expanded="true" signature="2793:2836" ph="SELECT value... atoms" />
+                <marker date="1498359951364" expanded="true" signature="2965:3056" ph="SELECT permi... group_permissions" />
+                <marker date="1498359951364" expanded="true" signature="3183:3247" ph="SELECT atom_... group_permissions" />
+                <marker date="1498359951364" expanded="true" signature="3363:3426" ph="SELECT group... group_permissions" />
+                <marker date="1498359951364" expanded="true" signature="3552:3642" ph="SELECT permi... user_permissions" />
+                <marker date="1498359951364" expanded="true" signature="3770:3832" ph="SELECT group... user_permissions" />
+                <marker date="1498359951364" expanded="true" signature="3949:4012" ph="SELECT user_... user_permissions" />
+                <marker date="1498359951364" expanded="true" signature="4119:4166" ph="SELECT id FR... users" />
+                <marker date="1498359951364" expanded="true" signature="4282:4329" ph="SELECT id FR... users" />
+                <marker date="1498359951364" expanded="true" signature="4575:4626" ph="UPDATE atoms... " />
+                <marker date="1498359951364" expanded="true" signature="4720:4766" ph="SELECT usern... users" />
+                <marker date="1498359951364" expanded="true" signature="4882:4926" ph="SELECT name groups" />
+                <marker date="1498359951364" expanded="true" signature="5037:5079" ph="SELECT name atoms" />
+                <marker date="1498359951364" expanded="true" signature="5674:5753" ph="DELETE FROM " />
+                <marker date="1498359951364" expanded="true" signature="5800:6004" ph="INSERT INTO group_permissions... " />
+                <marker date="1498359951364" expanded="true" signature="6229:6278" ph="UPDATE atoms... " />
+                <marker date="1498359951364" expanded="true" signature="6369:6420" ph="UPDATE group... " />
+                <marker date="1498359951364" expanded="true" signature="7081:7159" ph="DELETE FROM " />
+                <marker date="1498359951364" expanded="true" signature="7187:7390" ph="INSERT INTO user_permissions... " />
+                <marker date="1498359951364" expanded="true" signature="7838:7886" ph="DELETE from " />
+                <marker date="1498359951364" expanded="true" signature="7921:7953" ph="DELETE from " />
+                <marker date="1498359951364" expanded="true" signature="8053:8102" ph="DELETE from " />
+                <marker date="1498359951364" expanded="true" signature="8137:8170" ph="DELETE from " />
+                <marker date="1498359951364" expanded="true" signature="8205:8255" ph="DELETE from " />
+                <marker date="1498359951364" expanded="true" signature="8354:8403" ph="DELETE from " />
+                <marker date="1498359951364" expanded="true" signature="8438:8470" ph="DELETE from " />
+                <marker date="1498359951364" expanded="true" signature="8677:8712" ph="DELETE FROM " />
+                <marker date="1498359951364" expanded="true" signature="8834:8893" ph="INSERT INTO entities... " />
+                <marker date="1498359951364" expanded="true" signature="9029:9073" ph="SELECT type entities" />
+                <marker date="1498359951364" expanded="true" signature="9925:9978" ph="UPDATE users... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="220" column="49" lean-forward="false" selection-start-line="220" selection-start-column="41" selection-end-line="220" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="session.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/session.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="335" column="0" lean-forward="true" selection-start-line="335" selection-start-column="0" selection-end-line="335" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>createAt</find>
+      <find>createAtom</find>
+      <find>invalid</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/api.php" />
+        <option value="$PROJECT_DIR$/backend/session.php" />
+        <option value="$PROJECT_DIR$/backend/leilodb.php" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -18,10 +113,12 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
-    <option name="width" value="816" />
-    <option name="height" value="861" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1618" />
+    <option name="height" value="871" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -37,13 +134,40 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leilo-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leilo-API" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leilo-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leilo-API" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
     <property name="nodejs_interpreter_path" value="$USER_HOME$/Programs/node-v6.10.3-win-x64/node" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -60,6 +184,69 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -70,33 +257,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1498350274434</updated>
-      <workItem from="1498350275780" duration="8000" />
+      <workItem from="1498350275780" duration="285000" />
+      <workItem from="1498350642642" duration="1496000" />
+      <workItem from="1498359467659" duration="1001000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8000" />
+    <option name="totallyTimeSpent" value="2782000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="0" width="816" height="861" extended-state="0" />
+    <frame x="-9" y="-9" width="1618" height="871" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24937344" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.221875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3243968" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -109,5 +300,119 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/backend/leilodb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <marker date="1498359951364" expanded="true" signature="836:910" ph="INSERT INTO atoms... " />
+            <marker date="1498359951364" expanded="true" signature="1180:1234" ph="INSERT INTO groups... " />
+            <marker date="1498359951364" expanded="true" signature="1584:1677" ph="INSERT INTO users... " />
+            <marker date="1498359951364" expanded="true" signature="1908:1959" ph="SELECT passw... users" />
+            <marker date="1498359951364" expanded="true" signature="2631:2674" ph="SELECT value... atoms" />
+            <marker date="1498359951364" expanded="true" signature="2793:2836" ph="SELECT value... atoms" />
+            <marker date="1498359951364" expanded="true" signature="2965:3056" ph="SELECT permi... group_permissions" />
+            <marker date="1498359951364" expanded="true" signature="3183:3247" ph="SELECT atom_... group_permissions" />
+            <marker date="1498359951364" expanded="true" signature="3363:3426" ph="SELECT group... group_permissions" />
+            <marker date="1498359951364" expanded="true" signature="3552:3642" ph="SELECT permi... user_permissions" />
+            <marker date="1498359951364" expanded="true" signature="3770:3832" ph="SELECT group... user_permissions" />
+            <marker date="1498359951364" expanded="true" signature="3949:4012" ph="SELECT user_... user_permissions" />
+            <marker date="1498359951364" expanded="true" signature="4119:4166" ph="SELECT id FR... users" />
+            <marker date="1498359951364" expanded="true" signature="4282:4329" ph="SELECT id FR... users" />
+            <marker date="1498359951364" expanded="true" signature="4575:4626" ph="UPDATE atoms... " />
+            <marker date="1498359951364" expanded="true" signature="4720:4766" ph="SELECT usern... users" />
+            <marker date="1498359951364" expanded="true" signature="4882:4926" ph="SELECT name groups" />
+            <marker date="1498359951364" expanded="true" signature="5037:5079" ph="SELECT name atoms" />
+            <marker date="1498359951364" expanded="true" signature="5674:5753" ph="DELETE FROM " />
+            <marker date="1498359951364" expanded="true" signature="5800:6004" ph="INSERT INTO group_permissions... " />
+            <marker date="1498359951364" expanded="true" signature="6229:6278" ph="UPDATE atoms... " />
+            <marker date="1498359951364" expanded="true" signature="6369:6420" ph="UPDATE group... " />
+            <marker date="1498359951364" expanded="true" signature="7081:7159" ph="DELETE FROM " />
+            <marker date="1498359951364" expanded="true" signature="7187:7390" ph="INSERT INTO user_permissions... " />
+            <marker date="1498359951364" expanded="true" signature="7838:7886" ph="DELETE from " />
+            <marker date="1498359951364" expanded="true" signature="7921:7953" ph="DELETE from " />
+            <marker date="1498359951364" expanded="true" signature="8053:8102" ph="DELETE from " />
+            <marker date="1498359951364" expanded="true" signature="8137:8170" ph="DELETE from " />
+            <marker date="1498359951364" expanded="true" signature="8205:8255" ph="DELETE from " />
+            <marker date="1498359951364" expanded="true" signature="8354:8403" ph="DELETE from " />
+            <marker date="1498359951364" expanded="true" signature="8438:8470" ph="DELETE from " />
+            <marker date="1498359951364" expanded="true" signature="8677:8712" ph="DELETE FROM " />
+            <marker date="1498359951364" expanded="true" signature="8834:8893" ph="INSERT INTO entities... " />
+            <marker date="1498359951364" expanded="true" signature="9029:9073" ph="SELECT type entities" />
+            <marker date="1498359951364" expanded="true" signature="9925:9978" ph="UPDATE users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="68" column="22" lean-forward="false" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="220" column="49" lean-forward="false" selection-start-line="220" selection-start-column="41" selection-end-line="220" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="335" column="0" lean-forward="true" selection-start-line="335" selection-start-column="0" selection-end-line="335" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/leilodb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <marker date="1498359951364" expanded="true" signature="836:910" ph="INSERT INTO atoms... " />
+            <marker date="1498359951364" expanded="true" signature="1180:1234" ph="INSERT INTO groups... " />
+            <marker date="1498359951364" expanded="true" signature="1584:1677" ph="INSERT INTO users... " />
+            <marker date="1498359951364" expanded="true" signature="1908:1959" ph="SELECT passw... users" />
+            <marker date="1498359951364" expanded="true" signature="2631:2674" ph="SELECT value... atoms" />
+            <marker date="1498359951364" expanded="true" signature="2793:2836" ph="SELECT value... atoms" />
+            <marker date="1498359951364" expanded="true" signature="2965:3056" ph="SELECT permi... group_permissions" />
+            <marker date="1498359951364" expanded="true" signature="3183:3247" ph="SELECT atom_... group_permissions" />
+            <marker date="1498359951364" expanded="true" signature="3363:3426" ph="SELECT group... group_permissions" />
+            <marker date="1498359951364" expanded="true" signature="3552:3642" ph="SELECT permi... user_permissions" />
+            <marker date="1498359951364" expanded="true" signature="3770:3832" ph="SELECT group... user_permissions" />
+            <marker date="1498359951364" expanded="true" signature="3949:4012" ph="SELECT user_... user_permissions" />
+            <marker date="1498359951364" expanded="true" signature="4119:4166" ph="SELECT id FR... users" />
+            <marker date="1498359951364" expanded="true" signature="4282:4329" ph="SELECT id FR... users" />
+            <marker date="1498359951364" expanded="true" signature="4575:4626" ph="UPDATE atoms... " />
+            <marker date="1498359951364" expanded="true" signature="4720:4766" ph="SELECT usern... users" />
+            <marker date="1498359951364" expanded="true" signature="4882:4926" ph="SELECT name groups" />
+            <marker date="1498359951364" expanded="true" signature="5037:5079" ph="SELECT name atoms" />
+            <marker date="1498359951364" expanded="true" signature="5674:5753" ph="DELETE FROM " />
+            <marker date="1498359951364" expanded="true" signature="5800:6004" ph="INSERT INTO group_permissions... " />
+            <marker date="1498359951364" expanded="true" signature="6229:6278" ph="UPDATE atoms... " />
+            <marker date="1498359951364" expanded="true" signature="6369:6420" ph="UPDATE group... " />
+            <marker date="1498359951364" expanded="true" signature="7081:7159" ph="DELETE FROM " />
+            <marker date="1498359951364" expanded="true" signature="7187:7390" ph="INSERT INTO user_permissions... " />
+            <marker date="1498359951364" expanded="true" signature="7838:7886" ph="DELETE from " />
+            <marker date="1498359951364" expanded="true" signature="7921:7953" ph="DELETE from " />
+            <marker date="1498359951364" expanded="true" signature="8053:8102" ph="DELETE from " />
+            <marker date="1498359951364" expanded="true" signature="8137:8170" ph="DELETE from " />
+            <marker date="1498359951364" expanded="true" signature="8205:8255" ph="DELETE from " />
+            <marker date="1498359951364" expanded="true" signature="8354:8403" ph="DELETE from " />
+            <marker date="1498359951364" expanded="true" signature="8438:8470" ph="DELETE from " />
+            <marker date="1498359951364" expanded="true" signature="8677:8712" ph="DELETE FROM " />
+            <marker date="1498359951364" expanded="true" signature="8834:8893" ph="INSERT INTO entities... " />
+            <marker date="1498359951364" expanded="true" signature="9029:9073" ph="SELECT type entities" />
+            <marker date="1498359951364" expanded="true" signature="9925:9978" ph="UPDATE users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

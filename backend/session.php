@@ -340,7 +340,7 @@ class LeiloSessionManager
         } else throw new \Exception("Not enough permissions", Constants::ERR_NO_PERMS);
     }
 
-    public function createAtom($group_id, $init_val = "null", $name = null)
+    public function createAtom($group_id, $init_val=null, $name = null)
     {
         $this->loginException();
 
