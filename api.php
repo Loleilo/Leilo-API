@@ -231,18 +231,16 @@ try {
                 $group_id = pp($params, "group_id");
                 $name1 = pp($params, "name");
                 m()->setGroupName($group_id, $name1);
-            } else if ($name == "getDashboard") {
-                $returnData = m()->getDashboard();
-            } else if ($name == "writeDashboard") {
-                $layout = pp($params, "layout");
-                m()->writeDashboard($layout);
             } else if ($name == "getWidget") {
                 $widget_id = pp($params, "widget_id");
                 return m()->getWidget($widget_id);
             } else if ($name == "writeWidget") {
-                $config = ppo($params, "config");
-                $widget_id = ppo($params, "widget_id");
-                return m()->writeWidget($config, $widget_id);
+                $config = pp($params, "config");
+                $widget_id = pp($params, "widget_id");
+                m()->writeWidget($widget_id, $config);
+            } else if ($name == "createWidget") {
+                $config = pp($params, "config");
+                m()->createWidget($config);
             } else if ($name == "deleteWidget") {
                 $widget_id = pp($params, "widget_id");
                 m()->deleteWidget($widget_id);

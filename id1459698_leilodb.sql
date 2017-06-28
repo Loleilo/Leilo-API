@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jun 28, 2017 at 05:54 PM
+-- Generation Time: Jun 28, 2017 at 10:06 PM
 -- Server version: 10.1.20-MariaDB
 -- PHP Version: 7.0.8
 
@@ -31,17 +31,6 @@ CREATE TABLE `atoms` (
   `value` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
   `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci COMMENT='Stores single data values';
-
--- --------------------------------------------------------
-
---
--- Table structure for table `dashboards`
---
-
-CREATE TABLE `dashboards` (
-  `id` varchar(36) COLLATE utf8_unicode_ci NOT NULL,
-  `layout` text COLLATE utf8_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
 
@@ -123,13 +112,6 @@ CREATE TABLE `widgets` (
 ALTER TABLE `atoms`
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `id` (`id`);
-
---
--- Indexes for table `dashboards`
---
-ALTER TABLE `dashboards`
-  ADD PRIMARY KEY (`id`) USING BTREE,
-  ADD UNIQUE KEY `user_id` (`id`);
 
 --
 -- Indexes for table `entities`
