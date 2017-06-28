@@ -73,7 +73,7 @@ class LeiloDB
 
     public function getDashboard($user_id)
     {
-        return $this->queryEntity("SELECT layout FROM dashboards WHERE id='$user_id'", "layout");
+        return $this->queryEntity("CALL selectLayout('$user_id')", "dashboard")['layout'];
     }
 
     public function writeDashboard($user_id, $dashboard)
