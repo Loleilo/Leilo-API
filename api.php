@@ -19,7 +19,7 @@ function p($param)
 }
 
 function po($param)
-{ 
+{
     if (!isset($param))
         return null;
     return $param;
@@ -227,12 +227,26 @@ try {
                 $atom_id = pp($params, "atom_id");
                 $name1 = pp($params, "name");
                 m()->setAtomName($group_id, $atom_id, $name1);
-            } else if ($name == "setGroupName"){
+            } else if ($name == "setGroupName") {
                 $group_id = pp($params, "group_id");
                 $name1 = pp($params, "name");
                 m()->setGroupName($group_id, $name1);
-            }
-            else {
+            } else if ($name == "getDashboard") {
+                $returnData = m()->getDashboard();
+            } else if ($name == "writeDashboard") {
+                $layout = pp($params, "layout");
+                m()->writeDashboard($layout);
+            } else if ($name == "getWidget") {
+                $widget_id = pp($params, "widget_id");
+                return m()->getWidget($widget_id);
+            } else if ($name == "writeWidget") {
+                $config = ppo($params, "config");
+                $widget_id = ppo($params, "widget_id");
+                return m()->writeWidget($config, $widget_id);
+            } else if ($name == "deleteWidget") {
+                $widget_id = pp($params, "widget_id");
+                m()->deleteWidget($widget_id);
+            } else {
                 throw new \Exception("Invalid call", Constants::ERR_INVALID_CALL);
             }
         }

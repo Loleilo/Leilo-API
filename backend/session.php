@@ -340,7 +340,7 @@ class LeiloSessionManager
         } else throw new \Exception("Not enough permissions", Constants::ERR_NO_PERMS);
     }
 
-    public function createAtom($group_id, $init_val=null, $name = null)
+    public function createAtom($group_id, $init_val = null, $name = null)
     {
         $this->loginException();
 
@@ -371,5 +371,35 @@ class LeiloSessionManager
         if (LeiloDB::checkPermission($group_perms, Constants::PERM_CONFIG)) {
             $this->bi->setGroupName($group_id, $name);
         } else throw new \Exception("Not enough permissions", Constants::ERR_NO_PERMS);
+    }
+
+    public function getDashboard()
+    {
+        $this->loginException();
+        return $this->bi->getDashboard($this->user_id);
+    }
+
+    public function writeDashboard($layout)
+    {
+        $this->loginException();
+        $this->bi->writeDashboard($this->user_id, $layout);
+    }
+
+    public function getWidget($widget_id)
+    {
+        $this->loginException();
+        return $this->bi->getWidget($this->user_id, $widget_id);
+    }
+
+    public function writeWidget($config, $widget_id = null)
+    {
+        $this->loginException();
+        return $this->bi->writeWidget($config, $this->user_id, $widget_id);
+    }
+
+    public function deleteWidget($widget_id)
+    {
+        $this->loginException();
+        $this->bi->deleteWidget($widget_id);
     }
 }
