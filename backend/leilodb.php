@@ -96,7 +96,7 @@ class LeiloDB
 
     public function listWidgets($user_id)
     {
-        Util::toArray($this->queryW("SELECT widget_id FROM user_widgets WHERE user_id='$user_id'"), "widget_id");
+        return Util::toArray($this->queryW("SELECT widget_id FROM user_widgets WHERE user_id='$user_id'"), "widget_id");
     }
 
     public function setWidgetOwner($user_id, $widget_id)

@@ -244,6 +244,8 @@ try {
             } else if ($name == "deleteWidget") {
                 $widget_id = pp($params, "widget_id");
                 m()->deleteWidget($widget_id);
+            } else if ($name == "listWidgets") {
+                $returnData = m()->listWidgets();
             } else {
                 throw new \Exception("Invalid call", Constants::ERR_INVALID_CALL);
             }

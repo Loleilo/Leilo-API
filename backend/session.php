@@ -373,6 +373,12 @@ class LeiloSessionManager
         } else throw new \Exception("Not enough permissions", Constants::ERR_NO_PERMS);
     }
 
+    public function listWidgets()
+    {
+        $this->loginException();
+        return $this->bi->listWidgets($this->user_id);
+    }
+
     public function getWidget($widget_id)
     {
         $this->loginException();

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jun 28, 2017 at 10:06 PM
+-- Generation Time: Jun 28, 2017 at 10:34 PM
 -- Server version: 10.1.20-MariaDB
 -- PHP Version: 7.0.8
 
@@ -93,12 +93,22 @@ CREATE TABLE `user_permissions` (
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `user_widgets`
+--
+
+CREATE TABLE `user_widgets` (
+  `widget_id` varchar(36) COLLATE utf8_unicode_ci NOT NULL,
+  `user_id` varchar(36) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `widgets`
 --
 
 CREATE TABLE `widgets` (
   `widget_id` varchar(36) COLLATE utf8_unicode_ci NOT NULL,
-  `owner_id` varchar(36) COLLATE utf8_unicode_ci NOT NULL,
   `config` blob NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
@@ -150,11 +160,18 @@ ALTER TABLE `user_permissions`
   ADD UNIQUE KEY `user_id` (`user_id`,`group_id`);
 
 --
+-- Indexes for table `user_widgets`
+--
+ALTER TABLE `user_widgets`
+  ADD PRIMARY KEY (`widget_id`,`user_id`) USING BTREE,
+  ADD UNIQUE KEY `widget_id` (`widget_id`);
+
+--
 -- Indexes for table `widgets`
 --
 ALTER TABLE `widgets`
-  ADD PRIMARY KEY (`widget_id`,`owner_id`),
-  ADD UNIQUE KEY `widget_id` (`widget_id`,`owner_id`);
+  ADD PRIMARY KEY (`widget_id`),
+  ADD UNIQUE KEY `widget_id` (`widget_id`);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
