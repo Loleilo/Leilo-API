@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3416c6e4-9c2f-4fe8-bfb2-9e90ae5c7385" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/leilodb.php" afterPath="$PROJECT_DIR$/backend/leilodb.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -152,8 +151,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -287,6 +286,7 @@
       <workItem from="1498596417111" duration="3694000" />
       <workItem from="1498618606979" duration="807000" />
       <workItem from="1498670500568" duration="1728000" />
+      <workItem from="1498672317871" duration="193000" />
     </task>
     <task id="LOCAL-00001" summary="Fix null issue with createAtom value">
       <created>1498360491073</created>
@@ -302,18 +302,24 @@
       <option name="project" value="LOCAL" />
       <updated>1498617263562</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Dynamic Dashboard row creation is working">
+      <created>1498672360563</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1498672360563</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11681000" />
+    <option name="totallyTimeSpent" value="11874000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1618" height="871" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29197994" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.291875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -363,7 +369,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fix null issue with createAtom value" />
     <MESSAGE value="Finished dashboard API (untested)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished dashboard API (untested)" />
+    <MESSAGE value="Dynamic Dashboard row creation is working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dynamic Dashboard row creation is working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
