@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3416c6e4-9c2f-4fe8-bfb2-9e90ae5c7385" name="Default" comment="Removed">
+    <list default="true" id="3416c6e4-9c2f-4fe8-bfb2-9e90ae5c7385" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api.php" afterPath="$PROJECT_DIR$/api.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/leilodb.php" afterPath="$PROJECT_DIR$/backend/leilodb.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/session.php" afterPath="$PROJECT_DIR$/backend/session.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/id1459698_leilodb.sql" afterPath="$PROJECT_DIR$/id1459698_leilodb.sql" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,75 +24,69 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="leilodb.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/leilodb.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+            <state relative-caret-position="767">
+              <caret line="111" column="17" lean-forward="false" selection-start-line="111" selection-start-column="17" selection-end-line="111" selection-end-column="17" />
               <folding>
-                <marker date="1498687000844" expanded="true" signature="836:910" ph="INSERT INTO atoms... " />
-                <marker date="1498687000844" expanded="true" signature="1180:1234" ph="INSERT INTO groups... " />
-                <marker date="1498687000844" expanded="true" signature="1584:1677" ph="INSERT INTO users... " />
-                <marker date="1498687000844" expanded="true" signature="1908:1959" ph="SELECT passw... users" />
-                <marker date="1498687000844" expanded="true" signature="2165:2220" ph="SELECT confi... widgets" />
-                <marker date="1498687000844" expanded="true" signature="2165:2243" ph="SELECT confi... widgets" />
-                <marker date="1498687000844" expanded="true" signature="2356:2417" ph="UPDATE atoms... " />
-                <marker date="1498687000844" expanded="true" signature="2356:2440" ph="UPDATE atoms... " />
-                <marker date="1498687000844" expanded="true" signature="2574:2659" ph="INSERT INTO widgets... " />
-                <marker date="1498687000844" expanded="true" signature="2766:2792" ph="SELECT confi... widgets" />
-                <marker date="1498687000844" expanded="true" signature="2766:2814" ph="DELETE FROM " />
-                <marker date="1498687000844" expanded="true" signature="3384:3427" ph="SELECT value... atoms" />
-                <marker date="1498687000844" expanded="true" signature="3546:3589" ph="SELECT value... atoms" />
-                <marker date="1498687000844" expanded="true" signature="3718:3809" ph="SELECT permi... group_permissions" />
-                <marker date="1498687000844" expanded="true" signature="3936:4000" ph="SELECT atom_... group_permissions" />
-                <marker date="1498687000844" expanded="true" signature="4116:4179" ph="SELECT group... group_permissions" />
-                <marker date="1498687000844" expanded="true" signature="4305:4395" ph="SELECT permi... user_permissions" />
-                <marker date="1498687000844" expanded="true" signature="4523:4585" ph="SELECT group... user_permissions" />
-                <marker date="1498687000844" expanded="true" signature="4702:4765" ph="SELECT user_... user_permissions" />
-                <marker date="1498687000844" expanded="true" signature="4872:4919" ph="SELECT id FR... users" />
-                <marker date="1498687000844" expanded="true" signature="5035:5082" ph="SELECT id FR... users" />
-                <marker date="1498687000844" expanded="true" signature="5328:5379" ph="UPDATE atoms... " />
-                <marker date="1498687000844" expanded="true" signature="5473:5519" ph="SELECT usern... users" />
-                <marker date="1498687000844" expanded="true" signature="5635:5679" ph="SELECT name groups" />
-                <marker date="1498687000844" expanded="true" signature="5790:5832" ph="SELECT name atoms" />
-                <marker date="1498687000844" expanded="true" signature="6427:6506" ph="DELETE FROM " />
-                <marker date="1498687000844" expanded="true" signature="6553:6757" ph="INSERT INTO group_permissions... " />
-                <marker date="1498687000844" expanded="true" signature="6982:7031" ph="UPDATE atoms... " />
-                <marker date="1498687000844" expanded="true" signature="7122:7173" ph="UPDATE group... " />
-                <marker date="1498687000844" expanded="true" signature="7834:7912" ph="DELETE FROM " />
-                <marker date="1498687000844" expanded="true" signature="7940:8143" ph="INSERT INTO user_permissions... " />
-                <marker date="1498687000844" expanded="true" signature="8591:8639" ph="DELETE from " />
-                <marker date="1498687000844" expanded="true" signature="8674:8706" ph="DELETE from " />
-                <marker date="1498687000844" expanded="true" signature="8806:8855" ph="DELETE from " />
-                <marker date="1498687000844" expanded="true" signature="8890:8923" ph="DELETE from " />
-                <marker date="1498687000844" expanded="true" signature="8958:9008" ph="DELETE from " />
-                <marker date="1498687000844" expanded="true" signature="9107:9156" ph="DELETE from " />
-                <marker date="1498687000844" expanded="true" signature="9191:9223" ph="DELETE from " />
-                <marker date="1498687000844" expanded="true" signature="9430:9465" ph="DELETE FROM " />
-                <marker date="1498687000844" expanded="true" signature="9587:9646" ph="INSERT INTO entities... " />
-                <marker date="1498687000844" expanded="true" signature="9782:9826" ph="SELECT type entities" />
-                <marker date="1498687000844" expanded="true" signature="10678:10731" ph="UPDATE users... " />
+                <marker date="1498689127944" expanded="true" signature="836:910" ph="INSERT INTO atoms... " />
+                <marker date="1498689127944" expanded="true" signature="1180:1234" ph="INSERT INTO groups... " />
+                <marker date="1498689127944" expanded="true" signature="1584:1677" ph="INSERT INTO users... " />
+                <marker date="1498689127944" expanded="true" signature="1908:1959" ph="SELECT passw... users" />
+                <marker date="1498689127944" expanded="true" signature="2155:2210" ph="SELECT confi... widgets" />
+                <marker date="1498689127944" expanded="true" signature="2313:2374" ph="UPDATE atoms... " />
+                <marker date="1498689127944" expanded="true" signature="2498:2564" ph="INSERT INTO widgets... " />
+                <marker date="1498689127944" expanded="true" signature="2671:2697" ph="SELECT confi... widgets" />
+                <marker date="1498689127944" expanded="true" signature="2671:2719" ph="DELETE FROM " />
+                <marker date="1498689127944" expanded="true" signature="2746:2799" ph="DELETE FROM " />
+                <marker date="1498689127944" expanded="true" signature="2895:2954" ph="SELECT group... user_permissions" />
+                <marker date="1498689127944" expanded="true" signature="3065:3117" ph="INSERT IGNOR... user_widgets" />
+                <marker date="1498689127944" expanded="true" signature="3065:3151" ph="INSERT IGNOR... user_widgets" />
+                <marker date="1498689127944" expanded="true" signature="3250:3311" ph="SELECT user_... user_widgets" />
+                <marker date="1498689127944" expanded="true" signature="3250:3323" ph="SELECT user_... user_widgets" />
+                <marker date="1498689127944" expanded="true" signature="3902:3945" ph="SELECT value... atoms" />
+                <marker date="1498689127944" expanded="true" signature="4064:4107" ph="SELECT value... atoms" />
+                <marker date="1498689127944" expanded="true" signature="4236:4327" ph="SELECT permi... group_permissions" />
+                <marker date="1498689127944" expanded="true" signature="4454:4518" ph="SELECT atom_... group_permissions" />
+                <marker date="1498689127944" expanded="true" signature="4634:4697" ph="SELECT group... group_permissions" />
+                <marker date="1498689127944" expanded="true" signature="4823:4913" ph="SELECT permi... user_permissions" />
+                <marker date="1498689127944" expanded="true" signature="5041:5103" ph="SELECT group... user_permissions" />
+                <marker date="1498689127944" expanded="true" signature="5220:5283" ph="SELECT user_... user_permissions" />
+                <marker date="1498689127944" expanded="true" signature="5390:5437" ph="SELECT id FR... users" />
+                <marker date="1498689127944" expanded="true" signature="5553:5600" ph="SELECT id FR... users" />
+                <marker date="1498689127944" expanded="true" signature="5846:5897" ph="UPDATE atoms... " />
+                <marker date="1498689127944" expanded="true" signature="5991:6037" ph="SELECT usern... users" />
+                <marker date="1498689127944" expanded="true" signature="6153:6197" ph="SELECT name groups" />
+                <marker date="1498689127944" expanded="true" signature="6308:6350" ph="SELECT name atoms" />
+                <marker date="1498689127944" expanded="true" signature="6945:7024" ph="DELETE FROM " />
+                <marker date="1498689127944" expanded="true" signature="7071:7275" ph="INSERT INTO group_permissions... " />
+                <marker date="1498689127944" expanded="true" signature="7500:7549" ph="UPDATE atoms... " />
+                <marker date="1498689127944" expanded="true" signature="7640:7691" ph="UPDATE group... " />
+                <marker date="1498689127944" expanded="true" signature="8352:8430" ph="DELETE FROM " />
+                <marker date="1498689127944" expanded="true" signature="8458:8661" ph="INSERT INTO user_permissions... " />
+                <marker date="1498689127944" expanded="true" signature="9109:9157" ph="DELETE from " />
+                <marker date="1498689127944" expanded="true" signature="9192:9224" ph="DELETE from " />
+                <marker date="1498689127944" expanded="true" signature="9324:9373" ph="DELETE from " />
+                <marker date="1498689127944" expanded="true" signature="9408:9441" ph="DELETE from " />
+                <marker date="1498689127944" expanded="true" signature="9476:9526" ph="DELETE from " />
+                <marker date="1498689127944" expanded="true" signature="9625:9674" ph="DELETE from " />
+                <marker date="1498689127944" expanded="true" signature="9709:9741" ph="DELETE from " />
+                <marker date="1498689127944" expanded="true" signature="9948:9983" ph="DELETE FROM " />
+                <marker date="1498689127944" expanded="true" signature="10105:10164" ph="INSERT INTO entities... " />
+                <marker date="1498689127944" expanded="true" signature="10300:10344" ph="SELECT type entities" />
+                <marker date="1498689127944" expanded="true" signature="11196:11249" ph="UPDATE users... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="session.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="session.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/session.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="373" column="5" lean-forward="false" selection-start-line="373" selection-start-column="5" selection-end-line="373" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="api.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/api.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5">
-              <caret line="233" column="13" lean-forward="false" selection-start-line="233" selection-start-column="13" selection-end-line="233" selection-end-column="13" />
+            <state relative-caret-position="545">
+              <caret line="379" column="52" lean-forward="true" selection-start-line="379" selection-start-column="52" selection-end-line="379" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -109,6 +101,7 @@
       <find>invalid</find>
       <find>DET</find>
       <find>update</find>
+      <find>groups</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -117,9 +110,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/api.php" />
         <option value="$PROJECT_DIR$/backend/leilodb.php" />
         <option value="$PROJECT_DIR$/backend/session.php" />
-        <option value="$PROJECT_DIR$/api.php" />
       </list>
     </option>
   </component>
@@ -293,7 +286,7 @@
       <workItem from="1498618606979" duration="807000" />
       <workItem from="1498670500568" duration="1728000" />
       <workItem from="1498672317871" duration="220000" />
-      <workItem from="1498683049447" duration="2799000" />
+      <workItem from="1498683049447" duration="4334000" />
     </task>
     <task id="LOCAL-00001" summary="Fix null issue with createAtom value">
       <created>1498360491073</created>
@@ -323,18 +316,25 @@
       <option name="project" value="LOCAL" />
       <updated>1498672532438</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Removed separate dashboard database to avoid splitting data that should be together">
+      <created>1498687660232</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1498687660232</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14700000" />
+    <option name="totallyTimeSpent" value="16235000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1618" height="871" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.291875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -386,7 +386,8 @@
     <MESSAGE value="Finished dashboard API (untested)" />
     <MESSAGE value="Dynamic Dashboard row creation is working" />
     <MESSAGE value="Added database structure export" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added database structure export" />
+    <MESSAGE value="Removed separate dashboard database to avoid splitting data that should be together" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed separate dashboard database to avoid splitting data that should be together" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -398,48 +399,52 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1498687000844" expanded="true" signature="836:910" ph="INSERT INTO atoms... " />
-            <marker date="1498687000844" expanded="true" signature="1180:1234" ph="INSERT INTO groups... " />
-            <marker date="1498687000844" expanded="true" signature="1584:1677" ph="INSERT INTO users... " />
-            <marker date="1498687000844" expanded="true" signature="1908:1959" ph="SELECT passw... users" />
-            <marker date="1498687000844" expanded="true" signature="2165:2220" ph="SELECT confi... widgets" />
-            <marker date="1498687000844" expanded="true" signature="2165:2243" ph="SELECT confi... widgets" />
-            <marker date="1498687000844" expanded="true" signature="2356:2417" ph="UPDATE atoms... " />
-            <marker date="1498687000844" expanded="true" signature="2356:2440" ph="UPDATE atoms... " />
-            <marker date="1498687000844" expanded="true" signature="2574:2659" ph="INSERT INTO widgets... " />
-            <marker date="1498687000844" expanded="true" signature="2766:2792" ph="SELECT confi... widgets" />
-            <marker date="1498687000844" expanded="true" signature="2766:2814" ph="DELETE FROM " />
-            <marker date="1498687000844" expanded="true" signature="3384:3427" ph="SELECT value... atoms" />
-            <marker date="1498687000844" expanded="true" signature="3546:3589" ph="SELECT value... atoms" />
-            <marker date="1498687000844" expanded="true" signature="3718:3809" ph="SELECT permi... group_permissions" />
-            <marker date="1498687000844" expanded="true" signature="3936:4000" ph="SELECT atom_... group_permissions" />
-            <marker date="1498687000844" expanded="true" signature="4116:4179" ph="SELECT group... group_permissions" />
-            <marker date="1498687000844" expanded="true" signature="4305:4395" ph="SELECT permi... user_permissions" />
-            <marker date="1498687000844" expanded="true" signature="4523:4585" ph="SELECT group... user_permissions" />
-            <marker date="1498687000844" expanded="true" signature="4702:4765" ph="SELECT user_... user_permissions" />
-            <marker date="1498687000844" expanded="true" signature="4872:4919" ph="SELECT id FR... users" />
-            <marker date="1498687000844" expanded="true" signature="5035:5082" ph="SELECT id FR... users" />
-            <marker date="1498687000844" expanded="true" signature="5328:5379" ph="UPDATE atoms... " />
-            <marker date="1498687000844" expanded="true" signature="5473:5519" ph="SELECT usern... users" />
-            <marker date="1498687000844" expanded="true" signature="5635:5679" ph="SELECT name groups" />
-            <marker date="1498687000844" expanded="true" signature="5790:5832" ph="SELECT name atoms" />
-            <marker date="1498687000844" expanded="true" signature="6427:6506" ph="DELETE FROM " />
-            <marker date="1498687000844" expanded="true" signature="6553:6757" ph="INSERT INTO group_permissions... " />
-            <marker date="1498687000844" expanded="true" signature="6982:7031" ph="UPDATE atoms... " />
-            <marker date="1498687000844" expanded="true" signature="7122:7173" ph="UPDATE group... " />
-            <marker date="1498687000844" expanded="true" signature="7834:7912" ph="DELETE FROM " />
-            <marker date="1498687000844" expanded="true" signature="7940:8143" ph="INSERT INTO user_permissions... " />
-            <marker date="1498687000844" expanded="true" signature="8591:8639" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="8674:8706" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="8806:8855" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="8890:8923" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="8958:9008" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="9107:9156" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="9191:9223" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="9430:9465" ph="DELETE FROM " />
-            <marker date="1498687000844" expanded="true" signature="9587:9646" ph="INSERT INTO entities... " />
-            <marker date="1498687000844" expanded="true" signature="9782:9826" ph="SELECT type entities" />
-            <marker date="1498687000844" expanded="true" signature="10678:10731" ph="UPDATE users... " />
+            <marker date="1498689127944" expanded="true" signature="836:910" ph="INSERT INTO atoms... " />
+            <marker date="1498689127944" expanded="true" signature="1180:1234" ph="INSERT INTO groups... " />
+            <marker date="1498689127944" expanded="true" signature="1584:1677" ph="INSERT INTO users... " />
+            <marker date="1498689127944" expanded="true" signature="1908:1959" ph="SELECT passw... users" />
+            <marker date="1498689127944" expanded="true" signature="2155:2210" ph="SELECT confi... widgets" />
+            <marker date="1498689127944" expanded="true" signature="2313:2374" ph="UPDATE atoms... " />
+            <marker date="1498689127944" expanded="true" signature="2498:2564" ph="INSERT INTO widgets... " />
+            <marker date="1498689127944" expanded="true" signature="2671:2697" ph="SELECT confi... widgets" />
+            <marker date="1498689127944" expanded="true" signature="2671:2719" ph="DELETE FROM " />
+            <marker date="1498689127944" expanded="true" signature="2746:2799" ph="DELETE FROM " />
+            <marker date="1498689127944" expanded="true" signature="2895:2954" ph="SELECT group... user_permissions" />
+            <marker date="1498689127944" expanded="true" signature="3065:3117" ph="INSERT IGNOR... user_widgets" />
+            <marker date="1498689127944" expanded="true" signature="3065:3151" ph="INSERT IGNOR... user_widgets" />
+            <marker date="1498689127944" expanded="true" signature="3250:3311" ph="SELECT user_... user_widgets" />
+            <marker date="1498689127944" expanded="true" signature="3250:3323" ph="SELECT user_... user_widgets" />
+            <marker date="1498689127944" expanded="true" signature="3902:3945" ph="SELECT value... atoms" />
+            <marker date="1498689127944" expanded="true" signature="4064:4107" ph="SELECT value... atoms" />
+            <marker date="1498689127944" expanded="true" signature="4236:4327" ph="SELECT permi... group_permissions" />
+            <marker date="1498689127944" expanded="true" signature="4454:4518" ph="SELECT atom_... group_permissions" />
+            <marker date="1498689127944" expanded="true" signature="4634:4697" ph="SELECT group... group_permissions" />
+            <marker date="1498689127944" expanded="true" signature="4823:4913" ph="SELECT permi... user_permissions" />
+            <marker date="1498689127944" expanded="true" signature="5041:5103" ph="SELECT group... user_permissions" />
+            <marker date="1498689127944" expanded="true" signature="5220:5283" ph="SELECT user_... user_permissions" />
+            <marker date="1498689127944" expanded="true" signature="5390:5437" ph="SELECT id FR... users" />
+            <marker date="1498689127944" expanded="true" signature="5553:5600" ph="SELECT id FR... users" />
+            <marker date="1498689127944" expanded="true" signature="5846:5897" ph="UPDATE atoms... " />
+            <marker date="1498689127944" expanded="true" signature="5991:6037" ph="SELECT usern... users" />
+            <marker date="1498689127944" expanded="true" signature="6153:6197" ph="SELECT name groups" />
+            <marker date="1498689127944" expanded="true" signature="6308:6350" ph="SELECT name atoms" />
+            <marker date="1498689127944" expanded="true" signature="6945:7024" ph="DELETE FROM " />
+            <marker date="1498689127944" expanded="true" signature="7071:7275" ph="INSERT INTO group_permissions... " />
+            <marker date="1498689127944" expanded="true" signature="7500:7549" ph="UPDATE atoms... " />
+            <marker date="1498689127944" expanded="true" signature="7640:7691" ph="UPDATE group... " />
+            <marker date="1498689127944" expanded="true" signature="8352:8430" ph="DELETE FROM " />
+            <marker date="1498689127944" expanded="true" signature="8458:8661" ph="INSERT INTO user_permissions... " />
+            <marker date="1498689127944" expanded="true" signature="9109:9157" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9192:9224" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9324:9373" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9408:9441" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9476:9526" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9625:9674" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9709:9741" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9948:9983" ph="DELETE FROM " />
+            <marker date="1498689127944" expanded="true" signature="10105:10164" ph="INSERT INTO entities... " />
+            <marker date="1498689127944" expanded="true" signature="10300:10344" ph="SELECT type entities" />
+            <marker date="1498689127944" expanded="true" signature="11196:11249" ph="UPDATE users... " />
           </folding>
         </state>
       </provider>
@@ -465,48 +470,52 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1498687000844" expanded="true" signature="836:910" ph="INSERT INTO atoms... " />
-            <marker date="1498687000844" expanded="true" signature="1180:1234" ph="INSERT INTO groups... " />
-            <marker date="1498687000844" expanded="true" signature="1584:1677" ph="INSERT INTO users... " />
-            <marker date="1498687000844" expanded="true" signature="1908:1959" ph="SELECT passw... users" />
-            <marker date="1498687000844" expanded="true" signature="2165:2220" ph="SELECT confi... widgets" />
-            <marker date="1498687000844" expanded="true" signature="2165:2243" ph="SELECT confi... widgets" />
-            <marker date="1498687000844" expanded="true" signature="2356:2417" ph="UPDATE atoms... " />
-            <marker date="1498687000844" expanded="true" signature="2356:2440" ph="UPDATE atoms... " />
-            <marker date="1498687000844" expanded="true" signature="2574:2659" ph="INSERT INTO widgets... " />
-            <marker date="1498687000844" expanded="true" signature="2766:2792" ph="SELECT confi... widgets" />
-            <marker date="1498687000844" expanded="true" signature="2766:2814" ph="DELETE FROM " />
-            <marker date="1498687000844" expanded="true" signature="3384:3427" ph="SELECT value... atoms" />
-            <marker date="1498687000844" expanded="true" signature="3546:3589" ph="SELECT value... atoms" />
-            <marker date="1498687000844" expanded="true" signature="3718:3809" ph="SELECT permi... group_permissions" />
-            <marker date="1498687000844" expanded="true" signature="3936:4000" ph="SELECT atom_... group_permissions" />
-            <marker date="1498687000844" expanded="true" signature="4116:4179" ph="SELECT group... group_permissions" />
-            <marker date="1498687000844" expanded="true" signature="4305:4395" ph="SELECT permi... user_permissions" />
-            <marker date="1498687000844" expanded="true" signature="4523:4585" ph="SELECT group... user_permissions" />
-            <marker date="1498687000844" expanded="true" signature="4702:4765" ph="SELECT user_... user_permissions" />
-            <marker date="1498687000844" expanded="true" signature="4872:4919" ph="SELECT id FR... users" />
-            <marker date="1498687000844" expanded="true" signature="5035:5082" ph="SELECT id FR... users" />
-            <marker date="1498687000844" expanded="true" signature="5328:5379" ph="UPDATE atoms... " />
-            <marker date="1498687000844" expanded="true" signature="5473:5519" ph="SELECT usern... users" />
-            <marker date="1498687000844" expanded="true" signature="5635:5679" ph="SELECT name groups" />
-            <marker date="1498687000844" expanded="true" signature="5790:5832" ph="SELECT name atoms" />
-            <marker date="1498687000844" expanded="true" signature="6427:6506" ph="DELETE FROM " />
-            <marker date="1498687000844" expanded="true" signature="6553:6757" ph="INSERT INTO group_permissions... " />
-            <marker date="1498687000844" expanded="true" signature="6982:7031" ph="UPDATE atoms... " />
-            <marker date="1498687000844" expanded="true" signature="7122:7173" ph="UPDATE group... " />
-            <marker date="1498687000844" expanded="true" signature="7834:7912" ph="DELETE FROM " />
-            <marker date="1498687000844" expanded="true" signature="7940:8143" ph="INSERT INTO user_permissions... " />
-            <marker date="1498687000844" expanded="true" signature="8591:8639" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="8674:8706" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="8806:8855" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="8890:8923" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="8958:9008" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="9107:9156" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="9191:9223" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="9430:9465" ph="DELETE FROM " />
-            <marker date="1498687000844" expanded="true" signature="9587:9646" ph="INSERT INTO entities... " />
-            <marker date="1498687000844" expanded="true" signature="9782:9826" ph="SELECT type entities" />
-            <marker date="1498687000844" expanded="true" signature="10678:10731" ph="UPDATE users... " />
+            <marker date="1498689127944" expanded="true" signature="836:910" ph="INSERT INTO atoms... " />
+            <marker date="1498689127944" expanded="true" signature="1180:1234" ph="INSERT INTO groups... " />
+            <marker date="1498689127944" expanded="true" signature="1584:1677" ph="INSERT INTO users... " />
+            <marker date="1498689127944" expanded="true" signature="1908:1959" ph="SELECT passw... users" />
+            <marker date="1498689127944" expanded="true" signature="2155:2210" ph="SELECT confi... widgets" />
+            <marker date="1498689127944" expanded="true" signature="2313:2374" ph="UPDATE atoms... " />
+            <marker date="1498689127944" expanded="true" signature="2498:2564" ph="INSERT INTO widgets... " />
+            <marker date="1498689127944" expanded="true" signature="2671:2697" ph="SELECT confi... widgets" />
+            <marker date="1498689127944" expanded="true" signature="2671:2719" ph="DELETE FROM " />
+            <marker date="1498689127944" expanded="true" signature="2746:2799" ph="DELETE FROM " />
+            <marker date="1498689127944" expanded="true" signature="2895:2954" ph="SELECT group... user_permissions" />
+            <marker date="1498689127944" expanded="true" signature="3065:3117" ph="INSERT IGNOR... user_widgets" />
+            <marker date="1498689127944" expanded="true" signature="3065:3151" ph="INSERT IGNOR... user_widgets" />
+            <marker date="1498689127944" expanded="true" signature="3250:3311" ph="SELECT user_... user_widgets" />
+            <marker date="1498689127944" expanded="true" signature="3250:3323" ph="SELECT user_... user_widgets" />
+            <marker date="1498689127944" expanded="true" signature="3902:3945" ph="SELECT value... atoms" />
+            <marker date="1498689127944" expanded="true" signature="4064:4107" ph="SELECT value... atoms" />
+            <marker date="1498689127944" expanded="true" signature="4236:4327" ph="SELECT permi... group_permissions" />
+            <marker date="1498689127944" expanded="true" signature="4454:4518" ph="SELECT atom_... group_permissions" />
+            <marker date="1498689127944" expanded="true" signature="4634:4697" ph="SELECT group... group_permissions" />
+            <marker date="1498689127944" expanded="true" signature="4823:4913" ph="SELECT permi... user_permissions" />
+            <marker date="1498689127944" expanded="true" signature="5041:5103" ph="SELECT group... user_permissions" />
+            <marker date="1498689127944" expanded="true" signature="5220:5283" ph="SELECT user_... user_permissions" />
+            <marker date="1498689127944" expanded="true" signature="5390:5437" ph="SELECT id FR... users" />
+            <marker date="1498689127944" expanded="true" signature="5553:5600" ph="SELECT id FR... users" />
+            <marker date="1498689127944" expanded="true" signature="5846:5897" ph="UPDATE atoms... " />
+            <marker date="1498689127944" expanded="true" signature="5991:6037" ph="SELECT usern... users" />
+            <marker date="1498689127944" expanded="true" signature="6153:6197" ph="SELECT name groups" />
+            <marker date="1498689127944" expanded="true" signature="6308:6350" ph="SELECT name atoms" />
+            <marker date="1498689127944" expanded="true" signature="6945:7024" ph="DELETE FROM " />
+            <marker date="1498689127944" expanded="true" signature="7071:7275" ph="INSERT INTO group_permissions... " />
+            <marker date="1498689127944" expanded="true" signature="7500:7549" ph="UPDATE atoms... " />
+            <marker date="1498689127944" expanded="true" signature="7640:7691" ph="UPDATE group... " />
+            <marker date="1498689127944" expanded="true" signature="8352:8430" ph="DELETE FROM " />
+            <marker date="1498689127944" expanded="true" signature="8458:8661" ph="INSERT INTO user_permissions... " />
+            <marker date="1498689127944" expanded="true" signature="9109:9157" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9192:9224" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9324:9373" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9408:9441" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9476:9526" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9625:9674" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9709:9741" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9948:9983" ph="DELETE FROM " />
+            <marker date="1498689127944" expanded="true" signature="10105:10164" ph="INSERT INTO entities... " />
+            <marker date="1498689127944" expanded="true" signature="10300:10344" ph="SELECT type entities" />
+            <marker date="1498689127944" expanded="true" signature="11196:11249" ph="UPDATE users... " />
           </folding>
         </state>
       </provider>
@@ -540,48 +549,52 @@
         <state relative-caret-position="6160">
           <caret line="315" column="40" lean-forward="true" selection-start-line="315" selection-start-column="40" selection-end-line="315" selection-end-column="40" />
           <folding>
-            <marker date="1498687000844" expanded="true" signature="836:910" ph="INSERT INTO atoms... " />
-            <marker date="1498687000844" expanded="true" signature="1180:1234" ph="INSERT INTO groups... " />
-            <marker date="1498687000844" expanded="true" signature="1584:1677" ph="INSERT INTO users... " />
-            <marker date="1498687000844" expanded="true" signature="1908:1959" ph="SELECT passw... users" />
-            <marker date="1498687000844" expanded="true" signature="2165:2220" ph="SELECT confi... widgets" />
-            <marker date="1498687000844" expanded="true" signature="2165:2243" ph="SELECT confi... widgets" />
-            <marker date="1498687000844" expanded="true" signature="2356:2417" ph="UPDATE atoms... " />
-            <marker date="1498687000844" expanded="true" signature="2356:2440" ph="UPDATE atoms... " />
-            <marker date="1498687000844" expanded="true" signature="2574:2659" ph="INSERT INTO widgets... " />
-            <marker date="1498687000844" expanded="true" signature="2766:2792" ph="SELECT confi... widgets" />
-            <marker date="1498687000844" expanded="true" signature="2766:2814" ph="DELETE FROM " />
-            <marker date="1498687000844" expanded="true" signature="3384:3427" ph="SELECT value... atoms" />
-            <marker date="1498687000844" expanded="true" signature="3546:3589" ph="SELECT value... atoms" />
-            <marker date="1498687000844" expanded="true" signature="3718:3809" ph="SELECT permi... group_permissions" />
-            <marker date="1498687000844" expanded="true" signature="3936:4000" ph="SELECT atom_... group_permissions" />
-            <marker date="1498687000844" expanded="true" signature="4116:4179" ph="SELECT group... group_permissions" />
-            <marker date="1498687000844" expanded="true" signature="4305:4395" ph="SELECT permi... user_permissions" />
-            <marker date="1498687000844" expanded="true" signature="4523:4585" ph="SELECT group... user_permissions" />
-            <marker date="1498687000844" expanded="true" signature="4702:4765" ph="SELECT user_... user_permissions" />
-            <marker date="1498687000844" expanded="true" signature="4872:4919" ph="SELECT id FR... users" />
-            <marker date="1498687000844" expanded="true" signature="5035:5082" ph="SELECT id FR... users" />
-            <marker date="1498687000844" expanded="true" signature="5328:5379" ph="UPDATE atoms... " />
-            <marker date="1498687000844" expanded="true" signature="5473:5519" ph="SELECT usern... users" />
-            <marker date="1498687000844" expanded="true" signature="5635:5679" ph="SELECT name groups" />
-            <marker date="1498687000844" expanded="true" signature="5790:5832" ph="SELECT name atoms" />
-            <marker date="1498687000844" expanded="true" signature="6427:6506" ph="DELETE FROM " />
-            <marker date="1498687000844" expanded="true" signature="6553:6757" ph="INSERT INTO group_permissions... " />
-            <marker date="1498687000844" expanded="true" signature="6982:7031" ph="UPDATE atoms... " />
-            <marker date="1498687000844" expanded="true" signature="7122:7173" ph="UPDATE group... " />
-            <marker date="1498687000844" expanded="true" signature="7834:7912" ph="DELETE FROM " />
-            <marker date="1498687000844" expanded="true" signature="7940:8143" ph="INSERT INTO user_permissions... " />
-            <marker date="1498687000844" expanded="true" signature="8591:8639" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="8674:8706" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="8806:8855" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="8890:8923" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="8958:9008" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="9107:9156" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="9191:9223" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="9430:9465" ph="DELETE FROM " />
-            <marker date="1498687000844" expanded="true" signature="9587:9646" ph="INSERT INTO entities... " />
-            <marker date="1498687000844" expanded="true" signature="9782:9826" ph="SELECT type entities" />
-            <marker date="1498687000844" expanded="true" signature="10678:10731" ph="UPDATE users... " />
+            <marker date="1498689127944" expanded="true" signature="836:910" ph="INSERT INTO atoms... " />
+            <marker date="1498689127944" expanded="true" signature="1180:1234" ph="INSERT INTO groups... " />
+            <marker date="1498689127944" expanded="true" signature="1584:1677" ph="INSERT INTO users... " />
+            <marker date="1498689127944" expanded="true" signature="1908:1959" ph="SELECT passw... users" />
+            <marker date="1498689127944" expanded="true" signature="2155:2210" ph="SELECT confi... widgets" />
+            <marker date="1498689127944" expanded="true" signature="2313:2374" ph="UPDATE atoms... " />
+            <marker date="1498689127944" expanded="true" signature="2498:2564" ph="INSERT INTO widgets... " />
+            <marker date="1498689127944" expanded="true" signature="2671:2697" ph="SELECT confi... widgets" />
+            <marker date="1498689127944" expanded="true" signature="2671:2719" ph="DELETE FROM " />
+            <marker date="1498689127944" expanded="true" signature="2746:2799" ph="DELETE FROM " />
+            <marker date="1498689127944" expanded="true" signature="2895:2954" ph="SELECT group... user_permissions" />
+            <marker date="1498689127944" expanded="true" signature="3065:3117" ph="INSERT IGNOR... user_widgets" />
+            <marker date="1498689127944" expanded="true" signature="3065:3151" ph="INSERT IGNOR... user_widgets" />
+            <marker date="1498689127944" expanded="true" signature="3250:3311" ph="SELECT user_... user_widgets" />
+            <marker date="1498689127944" expanded="true" signature="3250:3323" ph="SELECT user_... user_widgets" />
+            <marker date="1498689127944" expanded="true" signature="3902:3945" ph="SELECT value... atoms" />
+            <marker date="1498689127944" expanded="true" signature="4064:4107" ph="SELECT value... atoms" />
+            <marker date="1498689127944" expanded="true" signature="4236:4327" ph="SELECT permi... group_permissions" />
+            <marker date="1498689127944" expanded="true" signature="4454:4518" ph="SELECT atom_... group_permissions" />
+            <marker date="1498689127944" expanded="true" signature="4634:4697" ph="SELECT group... group_permissions" />
+            <marker date="1498689127944" expanded="true" signature="4823:4913" ph="SELECT permi... user_permissions" />
+            <marker date="1498689127944" expanded="true" signature="5041:5103" ph="SELECT group... user_permissions" />
+            <marker date="1498689127944" expanded="true" signature="5220:5283" ph="SELECT user_... user_permissions" />
+            <marker date="1498689127944" expanded="true" signature="5390:5437" ph="SELECT id FR... users" />
+            <marker date="1498689127944" expanded="true" signature="5553:5600" ph="SELECT id FR... users" />
+            <marker date="1498689127944" expanded="true" signature="5846:5897" ph="UPDATE atoms... " />
+            <marker date="1498689127944" expanded="true" signature="5991:6037" ph="SELECT usern... users" />
+            <marker date="1498689127944" expanded="true" signature="6153:6197" ph="SELECT name groups" />
+            <marker date="1498689127944" expanded="true" signature="6308:6350" ph="SELECT name atoms" />
+            <marker date="1498689127944" expanded="true" signature="6945:7024" ph="DELETE FROM " />
+            <marker date="1498689127944" expanded="true" signature="7071:7275" ph="INSERT INTO group_permissions... " />
+            <marker date="1498689127944" expanded="true" signature="7500:7549" ph="UPDATE atoms... " />
+            <marker date="1498689127944" expanded="true" signature="7640:7691" ph="UPDATE group... " />
+            <marker date="1498689127944" expanded="true" signature="8352:8430" ph="DELETE FROM " />
+            <marker date="1498689127944" expanded="true" signature="8458:8661" ph="INSERT INTO user_permissions... " />
+            <marker date="1498689127944" expanded="true" signature="9109:9157" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9192:9224" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9324:9373" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9408:9441" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9476:9526" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9625:9674" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9709:9741" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9948:9983" ph="DELETE FROM " />
+            <marker date="1498689127944" expanded="true" signature="10105:10164" ph="INSERT INTO entities... " />
+            <marker date="1498689127944" expanded="true" signature="10300:10344" ph="SELECT type entities" />
+            <marker date="1498689127944" expanded="true" signature="11196:11249" ph="UPDATE users... " />
           </folding>
         </state>
       </provider>
@@ -607,48 +620,52 @@
         <state relative-caret-position="660">
           <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
-            <marker date="1498687000844" expanded="true" signature="836:910" ph="INSERT INTO atoms... " />
-            <marker date="1498687000844" expanded="true" signature="1180:1234" ph="INSERT INTO groups... " />
-            <marker date="1498687000844" expanded="true" signature="1584:1677" ph="INSERT INTO users... " />
-            <marker date="1498687000844" expanded="true" signature="1908:1959" ph="SELECT passw... users" />
-            <marker date="1498687000844" expanded="true" signature="2165:2220" ph="SELECT confi... widgets" />
-            <marker date="1498687000844" expanded="true" signature="2165:2243" ph="SELECT confi... widgets" />
-            <marker date="1498687000844" expanded="true" signature="2356:2417" ph="UPDATE atoms... " />
-            <marker date="1498687000844" expanded="true" signature="2356:2440" ph="UPDATE atoms... " />
-            <marker date="1498687000844" expanded="true" signature="2574:2659" ph="INSERT INTO widgets... " />
-            <marker date="1498687000844" expanded="true" signature="2766:2792" ph="SELECT confi... widgets" />
-            <marker date="1498687000844" expanded="true" signature="2766:2814" ph="DELETE FROM " />
-            <marker date="1498687000844" expanded="true" signature="3384:3427" ph="SELECT value... atoms" />
-            <marker date="1498687000844" expanded="true" signature="3546:3589" ph="SELECT value... atoms" />
-            <marker date="1498687000844" expanded="true" signature="3718:3809" ph="SELECT permi... group_permissions" />
-            <marker date="1498687000844" expanded="true" signature="3936:4000" ph="SELECT atom_... group_permissions" />
-            <marker date="1498687000844" expanded="true" signature="4116:4179" ph="SELECT group... group_permissions" />
-            <marker date="1498687000844" expanded="true" signature="4305:4395" ph="SELECT permi... user_permissions" />
-            <marker date="1498687000844" expanded="true" signature="4523:4585" ph="SELECT group... user_permissions" />
-            <marker date="1498687000844" expanded="true" signature="4702:4765" ph="SELECT user_... user_permissions" />
-            <marker date="1498687000844" expanded="true" signature="4872:4919" ph="SELECT id FR... users" />
-            <marker date="1498687000844" expanded="true" signature="5035:5082" ph="SELECT id FR... users" />
-            <marker date="1498687000844" expanded="true" signature="5328:5379" ph="UPDATE atoms... " />
-            <marker date="1498687000844" expanded="true" signature="5473:5519" ph="SELECT usern... users" />
-            <marker date="1498687000844" expanded="true" signature="5635:5679" ph="SELECT name groups" />
-            <marker date="1498687000844" expanded="true" signature="5790:5832" ph="SELECT name atoms" />
-            <marker date="1498687000844" expanded="true" signature="6427:6506" ph="DELETE FROM " />
-            <marker date="1498687000844" expanded="true" signature="6553:6757" ph="INSERT INTO group_permissions... " />
-            <marker date="1498687000844" expanded="true" signature="6982:7031" ph="UPDATE atoms... " />
-            <marker date="1498687000844" expanded="true" signature="7122:7173" ph="UPDATE group... " />
-            <marker date="1498687000844" expanded="true" signature="7834:7912" ph="DELETE FROM " />
-            <marker date="1498687000844" expanded="true" signature="7940:8143" ph="INSERT INTO user_permissions... " />
-            <marker date="1498687000844" expanded="true" signature="8591:8639" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="8674:8706" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="8806:8855" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="8890:8923" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="8958:9008" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="9107:9156" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="9191:9223" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="9430:9465" ph="DELETE FROM " />
-            <marker date="1498687000844" expanded="true" signature="9587:9646" ph="INSERT INTO entities... " />
-            <marker date="1498687000844" expanded="true" signature="9782:9826" ph="SELECT type entities" />
-            <marker date="1498687000844" expanded="true" signature="10678:10731" ph="UPDATE users... " />
+            <marker date="1498689127944" expanded="true" signature="836:910" ph="INSERT INTO atoms... " />
+            <marker date="1498689127944" expanded="true" signature="1180:1234" ph="INSERT INTO groups... " />
+            <marker date="1498689127944" expanded="true" signature="1584:1677" ph="INSERT INTO users... " />
+            <marker date="1498689127944" expanded="true" signature="1908:1959" ph="SELECT passw... users" />
+            <marker date="1498689127944" expanded="true" signature="2155:2210" ph="SELECT confi... widgets" />
+            <marker date="1498689127944" expanded="true" signature="2313:2374" ph="UPDATE atoms... " />
+            <marker date="1498689127944" expanded="true" signature="2498:2564" ph="INSERT INTO widgets... " />
+            <marker date="1498689127944" expanded="true" signature="2671:2697" ph="SELECT confi... widgets" />
+            <marker date="1498689127944" expanded="true" signature="2671:2719" ph="DELETE FROM " />
+            <marker date="1498689127944" expanded="true" signature="2746:2799" ph="DELETE FROM " />
+            <marker date="1498689127944" expanded="true" signature="2895:2954" ph="SELECT group... user_permissions" />
+            <marker date="1498689127944" expanded="true" signature="3065:3117" ph="INSERT IGNOR... user_widgets" />
+            <marker date="1498689127944" expanded="true" signature="3065:3151" ph="INSERT IGNOR... user_widgets" />
+            <marker date="1498689127944" expanded="true" signature="3250:3311" ph="SELECT user_... user_widgets" />
+            <marker date="1498689127944" expanded="true" signature="3250:3323" ph="SELECT user_... user_widgets" />
+            <marker date="1498689127944" expanded="true" signature="3902:3945" ph="SELECT value... atoms" />
+            <marker date="1498689127944" expanded="true" signature="4064:4107" ph="SELECT value... atoms" />
+            <marker date="1498689127944" expanded="true" signature="4236:4327" ph="SELECT permi... group_permissions" />
+            <marker date="1498689127944" expanded="true" signature="4454:4518" ph="SELECT atom_... group_permissions" />
+            <marker date="1498689127944" expanded="true" signature="4634:4697" ph="SELECT group... group_permissions" />
+            <marker date="1498689127944" expanded="true" signature="4823:4913" ph="SELECT permi... user_permissions" />
+            <marker date="1498689127944" expanded="true" signature="5041:5103" ph="SELECT group... user_permissions" />
+            <marker date="1498689127944" expanded="true" signature="5220:5283" ph="SELECT user_... user_permissions" />
+            <marker date="1498689127944" expanded="true" signature="5390:5437" ph="SELECT id FR... users" />
+            <marker date="1498689127944" expanded="true" signature="5553:5600" ph="SELECT id FR... users" />
+            <marker date="1498689127944" expanded="true" signature="5846:5897" ph="UPDATE atoms... " />
+            <marker date="1498689127944" expanded="true" signature="5991:6037" ph="SELECT usern... users" />
+            <marker date="1498689127944" expanded="true" signature="6153:6197" ph="SELECT name groups" />
+            <marker date="1498689127944" expanded="true" signature="6308:6350" ph="SELECT name atoms" />
+            <marker date="1498689127944" expanded="true" signature="6945:7024" ph="DELETE FROM " />
+            <marker date="1498689127944" expanded="true" signature="7071:7275" ph="INSERT INTO group_permissions... " />
+            <marker date="1498689127944" expanded="true" signature="7500:7549" ph="UPDATE atoms... " />
+            <marker date="1498689127944" expanded="true" signature="7640:7691" ph="UPDATE group... " />
+            <marker date="1498689127944" expanded="true" signature="8352:8430" ph="DELETE FROM " />
+            <marker date="1498689127944" expanded="true" signature="8458:8661" ph="INSERT INTO user_permissions... " />
+            <marker date="1498689127944" expanded="true" signature="9109:9157" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9192:9224" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9324:9373" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9408:9441" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9476:9526" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9625:9674" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9709:9741" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9948:9983" ph="DELETE FROM " />
+            <marker date="1498689127944" expanded="true" signature="10105:10164" ph="INSERT INTO entities... " />
+            <marker date="1498689127944" expanded="true" signature="10300:10344" ph="SELECT type entities" />
+            <marker date="1498689127944" expanded="true" signature="11196:11249" ph="UPDATE users... " />
           </folding>
         </state>
       </provider>
@@ -674,48 +691,52 @@
         <state relative-caret-position="100">
           <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding>
-            <marker date="1498687000844" expanded="true" signature="836:910" ph="INSERT INTO atoms... " />
-            <marker date="1498687000844" expanded="true" signature="1180:1234" ph="INSERT INTO groups... " />
-            <marker date="1498687000844" expanded="true" signature="1584:1677" ph="INSERT INTO users... " />
-            <marker date="1498687000844" expanded="true" signature="1908:1959" ph="SELECT passw... users" />
-            <marker date="1498687000844" expanded="true" signature="2165:2220" ph="SELECT confi... widgets" />
-            <marker date="1498687000844" expanded="true" signature="2165:2243" ph="SELECT confi... widgets" />
-            <marker date="1498687000844" expanded="true" signature="2356:2417" ph="UPDATE atoms... " />
-            <marker date="1498687000844" expanded="true" signature="2356:2440" ph="UPDATE atoms... " />
-            <marker date="1498687000844" expanded="true" signature="2574:2659" ph="INSERT INTO widgets... " />
-            <marker date="1498687000844" expanded="true" signature="2766:2792" ph="SELECT confi... widgets" />
-            <marker date="1498687000844" expanded="true" signature="2766:2814" ph="DELETE FROM " />
-            <marker date="1498687000844" expanded="true" signature="3384:3427" ph="SELECT value... atoms" />
-            <marker date="1498687000844" expanded="true" signature="3546:3589" ph="SELECT value... atoms" />
-            <marker date="1498687000844" expanded="true" signature="3718:3809" ph="SELECT permi... group_permissions" />
-            <marker date="1498687000844" expanded="true" signature="3936:4000" ph="SELECT atom_... group_permissions" />
-            <marker date="1498687000844" expanded="true" signature="4116:4179" ph="SELECT group... group_permissions" />
-            <marker date="1498687000844" expanded="true" signature="4305:4395" ph="SELECT permi... user_permissions" />
-            <marker date="1498687000844" expanded="true" signature="4523:4585" ph="SELECT group... user_permissions" />
-            <marker date="1498687000844" expanded="true" signature="4702:4765" ph="SELECT user_... user_permissions" />
-            <marker date="1498687000844" expanded="true" signature="4872:4919" ph="SELECT id FR... users" />
-            <marker date="1498687000844" expanded="true" signature="5035:5082" ph="SELECT id FR... users" />
-            <marker date="1498687000844" expanded="true" signature="5328:5379" ph="UPDATE atoms... " />
-            <marker date="1498687000844" expanded="true" signature="5473:5519" ph="SELECT usern... users" />
-            <marker date="1498687000844" expanded="true" signature="5635:5679" ph="SELECT name groups" />
-            <marker date="1498687000844" expanded="true" signature="5790:5832" ph="SELECT name atoms" />
-            <marker date="1498687000844" expanded="true" signature="6427:6506" ph="DELETE FROM " />
-            <marker date="1498687000844" expanded="true" signature="6553:6757" ph="INSERT INTO group_permissions... " />
-            <marker date="1498687000844" expanded="true" signature="6982:7031" ph="UPDATE atoms... " />
-            <marker date="1498687000844" expanded="true" signature="7122:7173" ph="UPDATE group... " />
-            <marker date="1498687000844" expanded="true" signature="7834:7912" ph="DELETE FROM " />
-            <marker date="1498687000844" expanded="true" signature="7940:8143" ph="INSERT INTO user_permissions... " />
-            <marker date="1498687000844" expanded="true" signature="8591:8639" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="8674:8706" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="8806:8855" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="8890:8923" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="8958:9008" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="9107:9156" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="9191:9223" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="9430:9465" ph="DELETE FROM " />
-            <marker date="1498687000844" expanded="true" signature="9587:9646" ph="INSERT INTO entities... " />
-            <marker date="1498687000844" expanded="true" signature="9782:9826" ph="SELECT type entities" />
-            <marker date="1498687000844" expanded="true" signature="10678:10731" ph="UPDATE users... " />
+            <marker date="1498689127944" expanded="true" signature="836:910" ph="INSERT INTO atoms... " />
+            <marker date="1498689127944" expanded="true" signature="1180:1234" ph="INSERT INTO groups... " />
+            <marker date="1498689127944" expanded="true" signature="1584:1677" ph="INSERT INTO users... " />
+            <marker date="1498689127944" expanded="true" signature="1908:1959" ph="SELECT passw... users" />
+            <marker date="1498689127944" expanded="true" signature="2155:2210" ph="SELECT confi... widgets" />
+            <marker date="1498689127944" expanded="true" signature="2313:2374" ph="UPDATE atoms... " />
+            <marker date="1498689127944" expanded="true" signature="2498:2564" ph="INSERT INTO widgets... " />
+            <marker date="1498689127944" expanded="true" signature="2671:2697" ph="SELECT confi... widgets" />
+            <marker date="1498689127944" expanded="true" signature="2671:2719" ph="DELETE FROM " />
+            <marker date="1498689127944" expanded="true" signature="2746:2799" ph="DELETE FROM " />
+            <marker date="1498689127944" expanded="true" signature="2895:2954" ph="SELECT group... user_permissions" />
+            <marker date="1498689127944" expanded="true" signature="3065:3117" ph="INSERT IGNOR... user_widgets" />
+            <marker date="1498689127944" expanded="true" signature="3065:3151" ph="INSERT IGNOR... user_widgets" />
+            <marker date="1498689127944" expanded="true" signature="3250:3311" ph="SELECT user_... user_widgets" />
+            <marker date="1498689127944" expanded="true" signature="3250:3323" ph="SELECT user_... user_widgets" />
+            <marker date="1498689127944" expanded="true" signature="3902:3945" ph="SELECT value... atoms" />
+            <marker date="1498689127944" expanded="true" signature="4064:4107" ph="SELECT value... atoms" />
+            <marker date="1498689127944" expanded="true" signature="4236:4327" ph="SELECT permi... group_permissions" />
+            <marker date="1498689127944" expanded="true" signature="4454:4518" ph="SELECT atom_... group_permissions" />
+            <marker date="1498689127944" expanded="true" signature="4634:4697" ph="SELECT group... group_permissions" />
+            <marker date="1498689127944" expanded="true" signature="4823:4913" ph="SELECT permi... user_permissions" />
+            <marker date="1498689127944" expanded="true" signature="5041:5103" ph="SELECT group... user_permissions" />
+            <marker date="1498689127944" expanded="true" signature="5220:5283" ph="SELECT user_... user_permissions" />
+            <marker date="1498689127944" expanded="true" signature="5390:5437" ph="SELECT id FR... users" />
+            <marker date="1498689127944" expanded="true" signature="5553:5600" ph="SELECT id FR... users" />
+            <marker date="1498689127944" expanded="true" signature="5846:5897" ph="UPDATE atoms... " />
+            <marker date="1498689127944" expanded="true" signature="5991:6037" ph="SELECT usern... users" />
+            <marker date="1498689127944" expanded="true" signature="6153:6197" ph="SELECT name groups" />
+            <marker date="1498689127944" expanded="true" signature="6308:6350" ph="SELECT name atoms" />
+            <marker date="1498689127944" expanded="true" signature="6945:7024" ph="DELETE FROM " />
+            <marker date="1498689127944" expanded="true" signature="7071:7275" ph="INSERT INTO group_permissions... " />
+            <marker date="1498689127944" expanded="true" signature="7500:7549" ph="UPDATE atoms... " />
+            <marker date="1498689127944" expanded="true" signature="7640:7691" ph="UPDATE group... " />
+            <marker date="1498689127944" expanded="true" signature="8352:8430" ph="DELETE FROM " />
+            <marker date="1498689127944" expanded="true" signature="8458:8661" ph="INSERT INTO user_permissions... " />
+            <marker date="1498689127944" expanded="true" signature="9109:9157" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9192:9224" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9324:9373" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9408:9441" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9476:9526" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9625:9674" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9709:9741" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9948:9983" ph="DELETE FROM " />
+            <marker date="1498689127944" expanded="true" signature="10105:10164" ph="INSERT INTO entities... " />
+            <marker date="1498689127944" expanded="true" signature="10300:10344" ph="SELECT type entities" />
+            <marker date="1498689127944" expanded="true" signature="11196:11249" ph="UPDATE users... " />
           </folding>
         </state>
       </provider>
@@ -724,65 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1260">
           <caret line="68" column="22" lean-forward="false" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/leilodb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding>
-            <marker date="1498687000844" expanded="true" signature="836:910" ph="INSERT INTO atoms... " />
-            <marker date="1498687000844" expanded="true" signature="1180:1234" ph="INSERT INTO groups... " />
-            <marker date="1498687000844" expanded="true" signature="1584:1677" ph="INSERT INTO users... " />
-            <marker date="1498687000844" expanded="true" signature="1908:1959" ph="SELECT passw... users" />
-            <marker date="1498687000844" expanded="true" signature="2165:2220" ph="SELECT confi... widgets" />
-            <marker date="1498687000844" expanded="true" signature="2165:2243" ph="SELECT confi... widgets" />
-            <marker date="1498687000844" expanded="true" signature="2356:2417" ph="UPDATE atoms... " />
-            <marker date="1498687000844" expanded="true" signature="2356:2440" ph="UPDATE atoms... " />
-            <marker date="1498687000844" expanded="true" signature="2574:2659" ph="INSERT INTO widgets... " />
-            <marker date="1498687000844" expanded="true" signature="2766:2792" ph="SELECT confi... widgets" />
-            <marker date="1498687000844" expanded="true" signature="2766:2814" ph="DELETE FROM " />
-            <marker date="1498687000844" expanded="true" signature="3384:3427" ph="SELECT value... atoms" />
-            <marker date="1498687000844" expanded="true" signature="3546:3589" ph="SELECT value... atoms" />
-            <marker date="1498687000844" expanded="true" signature="3718:3809" ph="SELECT permi... group_permissions" />
-            <marker date="1498687000844" expanded="true" signature="3936:4000" ph="SELECT atom_... group_permissions" />
-            <marker date="1498687000844" expanded="true" signature="4116:4179" ph="SELECT group... group_permissions" />
-            <marker date="1498687000844" expanded="true" signature="4305:4395" ph="SELECT permi... user_permissions" />
-            <marker date="1498687000844" expanded="true" signature="4523:4585" ph="SELECT group... user_permissions" />
-            <marker date="1498687000844" expanded="true" signature="4702:4765" ph="SELECT user_... user_permissions" />
-            <marker date="1498687000844" expanded="true" signature="4872:4919" ph="SELECT id FR... users" />
-            <marker date="1498687000844" expanded="true" signature="5035:5082" ph="SELECT id FR... users" />
-            <marker date="1498687000844" expanded="true" signature="5328:5379" ph="UPDATE atoms... " />
-            <marker date="1498687000844" expanded="true" signature="5473:5519" ph="SELECT usern... users" />
-            <marker date="1498687000844" expanded="true" signature="5635:5679" ph="SELECT name groups" />
-            <marker date="1498687000844" expanded="true" signature="5790:5832" ph="SELECT name atoms" />
-            <marker date="1498687000844" expanded="true" signature="6427:6506" ph="DELETE FROM " />
-            <marker date="1498687000844" expanded="true" signature="6553:6757" ph="INSERT INTO group_permissions... " />
-            <marker date="1498687000844" expanded="true" signature="6982:7031" ph="UPDATE atoms... " />
-            <marker date="1498687000844" expanded="true" signature="7122:7173" ph="UPDATE group... " />
-            <marker date="1498687000844" expanded="true" signature="7834:7912" ph="DELETE FROM " />
-            <marker date="1498687000844" expanded="true" signature="7940:8143" ph="INSERT INTO user_permissions... " />
-            <marker date="1498687000844" expanded="true" signature="8591:8639" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="8674:8706" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="8806:8855" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="8890:8923" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="8958:9008" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="9107:9156" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="9191:9223" ph="DELETE from " />
-            <marker date="1498687000844" expanded="true" signature="9430:9465" ph="DELETE FROM " />
-            <marker date="1498687000844" expanded="true" signature="9587:9646" ph="INSERT INTO entities... " />
-            <marker date="1498687000844" expanded="true" signature="9782:9826" ph="SELECT type entities" />
-            <marker date="1498687000844" expanded="true" signature="10678:10731" ph="UPDATE users... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="373" column="5" lean-forward="false" selection-start-line="373" selection-start-column="5" selection-end-line="373" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -797,8 +759,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="233" column="13" lean-forward="false" selection-start-line="233" selection-start-column="13" selection-end-line="233" selection-end-column="13" />
+        <state relative-caret-position="825">
+          <caret line="256" column="1" lean-forward="true" selection-start-line="256" selection-start-column="1" selection-end-line="256" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/leilodb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="767">
+          <caret line="111" column="17" lean-forward="false" selection-start-line="111" selection-start-column="17" selection-end-line="111" selection-end-column="17" />
+          <folding>
+            <marker date="1498689127944" expanded="true" signature="836:910" ph="INSERT INTO atoms... " />
+            <marker date="1498689127944" expanded="true" signature="1180:1234" ph="INSERT INTO groups... " />
+            <marker date="1498689127944" expanded="true" signature="1584:1677" ph="INSERT INTO users... " />
+            <marker date="1498689127944" expanded="true" signature="1908:1959" ph="SELECT passw... users" />
+            <marker date="1498689127944" expanded="true" signature="2155:2210" ph="SELECT confi... widgets" />
+            <marker date="1498689127944" expanded="true" signature="2313:2374" ph="UPDATE atoms... " />
+            <marker date="1498689127944" expanded="true" signature="2498:2564" ph="INSERT INTO widgets... " />
+            <marker date="1498689127944" expanded="true" signature="2671:2697" ph="SELECT confi... widgets" />
+            <marker date="1498689127944" expanded="true" signature="2671:2719" ph="DELETE FROM " />
+            <marker date="1498689127944" expanded="true" signature="2746:2799" ph="DELETE FROM " />
+            <marker date="1498689127944" expanded="true" signature="2895:2954" ph="SELECT group... user_permissions" />
+            <marker date="1498689127944" expanded="true" signature="3065:3117" ph="INSERT IGNOR... user_widgets" />
+            <marker date="1498689127944" expanded="true" signature="3065:3151" ph="INSERT IGNOR... user_widgets" />
+            <marker date="1498689127944" expanded="true" signature="3250:3311" ph="SELECT user_... user_widgets" />
+            <marker date="1498689127944" expanded="true" signature="3250:3323" ph="SELECT user_... user_widgets" />
+            <marker date="1498689127944" expanded="true" signature="3902:3945" ph="SELECT value... atoms" />
+            <marker date="1498689127944" expanded="true" signature="4064:4107" ph="SELECT value... atoms" />
+            <marker date="1498689127944" expanded="true" signature="4236:4327" ph="SELECT permi... group_permissions" />
+            <marker date="1498689127944" expanded="true" signature="4454:4518" ph="SELECT atom_... group_permissions" />
+            <marker date="1498689127944" expanded="true" signature="4634:4697" ph="SELECT group... group_permissions" />
+            <marker date="1498689127944" expanded="true" signature="4823:4913" ph="SELECT permi... user_permissions" />
+            <marker date="1498689127944" expanded="true" signature="5041:5103" ph="SELECT group... user_permissions" />
+            <marker date="1498689127944" expanded="true" signature="5220:5283" ph="SELECT user_... user_permissions" />
+            <marker date="1498689127944" expanded="true" signature="5390:5437" ph="SELECT id FR... users" />
+            <marker date="1498689127944" expanded="true" signature="5553:5600" ph="SELECT id FR... users" />
+            <marker date="1498689127944" expanded="true" signature="5846:5897" ph="UPDATE atoms... " />
+            <marker date="1498689127944" expanded="true" signature="5991:6037" ph="SELECT usern... users" />
+            <marker date="1498689127944" expanded="true" signature="6153:6197" ph="SELECT name groups" />
+            <marker date="1498689127944" expanded="true" signature="6308:6350" ph="SELECT name atoms" />
+            <marker date="1498689127944" expanded="true" signature="6945:7024" ph="DELETE FROM " />
+            <marker date="1498689127944" expanded="true" signature="7071:7275" ph="INSERT INTO group_permissions... " />
+            <marker date="1498689127944" expanded="true" signature="7500:7549" ph="UPDATE atoms... " />
+            <marker date="1498689127944" expanded="true" signature="7640:7691" ph="UPDATE group... " />
+            <marker date="1498689127944" expanded="true" signature="8352:8430" ph="DELETE FROM " />
+            <marker date="1498689127944" expanded="true" signature="8458:8661" ph="INSERT INTO user_permissions... " />
+            <marker date="1498689127944" expanded="true" signature="9109:9157" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9192:9224" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9324:9373" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9408:9441" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9476:9526" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9625:9674" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9709:9741" ph="DELETE from " />
+            <marker date="1498689127944" expanded="true" signature="9948:9983" ph="DELETE FROM " />
+            <marker date="1498689127944" expanded="true" signature="10105:10164" ph="INSERT INTO entities... " />
+            <marker date="1498689127944" expanded="true" signature="10300:10344" ph="SELECT type entities" />
+            <marker date="1498689127944" expanded="true" signature="11196:11249" ph="UPDATE users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="379" column="52" lean-forward="true" selection-start-line="379" selection-start-column="52" selection-end-line="379" selection-end-column="52" />
           <folding />
         </state>
       </provider>
