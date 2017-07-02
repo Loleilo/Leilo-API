@@ -373,39 +373,15 @@ class LeiloSessionManager
         } else throw new \Exception("Not enough permissions", Constants::ERR_NO_PERMS);
     }
 
-    public function listWidgets()
+    public function getDashboard()
     {
         $this->loginException();
-        return $this->bi->listWidgets($this->user_id);
+        return $this->bi->getDashboard($this->user_id);
     }
 
-    public function getWidget($widget_id)
+    public function writeDashboard($layout)
     {
         $this->loginException();
-        if ($this->bi->getWidgetOwner($widget_id) == $this->user_id) {
-            return $this->bi->getWidget($widget_id);
-        } else throw new \Exception("Not enough permissions", Constants::ERR_NO_PERMS);
-    }
-
-    public function writeWidget($widget_id, $config)
-    {
-        $this->loginException();
-        if ($this->bi->getWidgetOwner($widget_id) == $this->user_id) {
-            $this->bi->writeWidget($widget_id, $config);
-        } else throw new \Exception("Not enough permissions", Constants::ERR_NO_PERMS);
-    }
-
-    public function createWidget($config)
-    {
-        $this->loginException();
-        $UUID = $this->bi->createWidget($config);
-        $this->bi->setWidgetOwner($this->user_id, $UUID);
-        return $UUID;
-    }
-
-    public function deleteWidget($widget_id)
-    {
-        $this->loginException();
-        $this->bi->deleteWidget($widget_id);
+        $this->bi->writeDashboard($this->user_id, $layout);
     }
 }

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jun 28, 2017 at 10:34 PM
+-- Generation Time: Jul 02, 2017 at 09:13 PM
 -- Server version: 10.1.20-MariaDB
 -- PHP Version: 7.0.8
 
@@ -31,6 +31,17 @@ CREATE TABLE `atoms` (
   `value` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
   `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci COMMENT='Stores single data values';
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `dashboards`
+--
+
+CREATE TABLE `dashboards` (
+  `id` varchar(36) COLLATE utf8_unicode_ci NOT NULL,
+  `layout` text COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
 
@@ -90,28 +101,6 @@ CREATE TABLE `user_permissions` (
   `permissions` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- --------------------------------------------------------
-
---
--- Table structure for table `user_widgets`
---
-
-CREATE TABLE `user_widgets` (
-  `widget_id` varchar(36) COLLATE utf8_unicode_ci NOT NULL,
-  `user_id` varchar(36) COLLATE utf8_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `widgets`
---
-
-CREATE TABLE `widgets` (
-  `widget_id` varchar(36) COLLATE utf8_unicode_ci NOT NULL,
-  `config` blob NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
 --
 -- Indexes for dumped tables
 --
@@ -158,20 +147,6 @@ ALTER TABLE `users`
 ALTER TABLE `user_permissions`
   ADD PRIMARY KEY (`user_id`,`group_id`),
   ADD UNIQUE KEY `user_id` (`user_id`,`group_id`);
-
---
--- Indexes for table `user_widgets`
---
-ALTER TABLE `user_widgets`
-  ADD PRIMARY KEY (`widget_id`,`user_id`) USING BTREE,
-  ADD UNIQUE KEY `widget_id` (`widget_id`);
-
---
--- Indexes for table `widgets`
---
-ALTER TABLE `widgets`
-  ADD PRIMARY KEY (`widget_id`),
-  ADD UNIQUE KEY `widget_id` (`widget_id`);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

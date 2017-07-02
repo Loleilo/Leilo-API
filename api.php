@@ -231,21 +231,11 @@ try {
                 $group_id = pp($params, "group_id");
                 $name1 = pp($params, "name");
                 m()->setGroupName($group_id, $name1);
-            } else if ($name == "getWidget") {
-                $widget_id = pp($params, "widget_id");
-                return m()->getWidget($widget_id);
-            } else if ($name == "writeWidget") {
-                $config = pp($params, "config");
-                $widget_id = pp($params, "widget_id");
-                m()->writeWidget($widget_id, $config);
-            } else if ($name == "createWidget") {
-                $config = pp($params, "config");
-                m()->createWidget($config);
-            } else if ($name == "deleteWidget") {
-                $widget_id = pp($params, "widget_id");
-                m()->deleteWidget($widget_id);
-            } else if ($name == "listWidgets") {
-                $returnData = m()->listWidgets();
+            } else if ($name == "getDashboard") {
+                $returnData = m()->getDashboard();
+            } else if ($name == "writeDashboard") {
+                $layout = pp($params, "layout");
+                m()->writeDashboard($layout);
             } else {
                 throw new \Exception("Invalid call", Constants::ERR_INVALID_CALL);
             }

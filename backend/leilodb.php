@@ -71,42 +71,14 @@ class LeiloDB
         return password_verify($password, $res);
     }
 
-    public function getWidget($widget_id)
+    public function getDashboard($user_id)
     {
-        return $this->queryEntity("SELECT config FROM widgets WHERE widget_id='$widget_id'", "config");
+        return $this->queryEntity("CALL selectLayout('$user_id')", "dashboard")['layout'];
     }
 
-    public function writeWidget($widget_id, $config)
+    public function writeDashboard($user_id, $dashboard)
     {
-        $this->queryW("UPDATE atoms SET value='$config' WHERE widget_id='$widget_id'");
-    }
-
-    public function createWidget($config)
-    {
-        $UUID = Util::getUUID($this->db);
-        $this->queryW("INSERT INTO widgets (widget_id, config) VALUES ('$UUID','$config')");
-        return $UUID;
-    }
-
-    public function deleteWidget($widget_id)
-    {
-        $this->queryW("DELETE FROM widgets WHERE widget_id='$widget_id'");
-        $this->queryW("DELETE FROM user_widgets WHERE widget_id='$widget_id'");
-    }
-
-    public function listWidgets($user_id)
-    {
-        return Util::toArray($this->queryW("SELECT widget_id FROM user_widgets WHERE user_id='$user_id'"), "widget_id");
-    }
-
-    public function setWidgetOwner($user_id, $widget_id)
-    {
-        $this->queryW("INSERT IGNORE INTO user_widgets (user_id, widget_id) values ('$user_id', '$widget_id')");
-    }
-
-    public function getWidgetOwner($widget_id)
-    {
-        return $this->queryEntity("SELECT user_id FROM user_widgets WHERE widget_id='$widget_id'", "widget")["user_id"];
+        $this->queryW("INSERT INTO dashboards (id, layout) VALUES ('$user_id', '$dashboard') ON DUPLICATE KEY UPDATE layout='$dashboard'");
     }
 
     //permissions
