@@ -376,12 +376,12 @@ class LeiloSessionManager
     public function getDashboard()
     {
         $this->loginException();
-        return $this->bi->getDashboard($this->user_id);
+        return json_decode($this->bi->getDashboard( $this->user_id));
     }
 
     public function writeDashboard($layout)
     {
         $this->loginException();
-        $this->bi->writeDashboard($this->user_id, $layout);
+        $this->bi->writeDashboard($this->user_id, json_encode(  $layout));
     }
 }

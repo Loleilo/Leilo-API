@@ -22,9 +22,8 @@ class Util
         if (isset($connection->connect_error)) {
             // Handle error - notify administrator, log to a file, show an error screen, etc
 //            error_log("Failed to connect to database", 0);
-            throw new \Exception("");
+            throw new \Exception("Failed to connect to database", Constants::ERR_DB);
         }
-
         return $connection;
     }
 

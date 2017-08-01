@@ -234,7 +234,7 @@ try {
             } else if ($name == "getDashboard") {
                 $returnData = m()->getDashboard();
             } else if ($name == "writeDashboard") {
-                $layout = pp($params, "layout");
+                $layout = pp($params, "dashboard");
                 m()->writeDashboard($layout);
             } else {
                 throw new \Exception("Invalid call", Constants::ERR_INVALID_CALL);
